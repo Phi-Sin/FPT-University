@@ -1,0 +1,143 @@
+<%-- 
+    Document   : signup
+    Created on : May 19, 2023, 5:14:38 PM
+    Author     : MSI
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        body{
+    background: url('/bgrdr21.jpg');
+    background-size: cover;
+}
+
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-login{
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    /*background highlight*/
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form-heading{
+    font-size: 30px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.form-below-heading{
+    font-size: 17px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.form-group{
+    border-bottom: 1px solid #ffff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid #f5f5f5;
+}
+
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-input::placeholder{
+    color: #f5f5f5;
+    padding-left: 10px;
+}
+
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #ffff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.form-submit:hover{
+    border: 1px solid #feca57;
+}
+
+.form-userid{
+    color: #f5f5f5;
+}
+
+.form-name{
+    color: #f5f5f5;
+}
+
+.form-password{
+    color: #f5f5f5;
+}
+
+.form-cfpassword{
+    color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-y: hidden;
+}
+    </style>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Page</title>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="SignupServlet" id="form-login" method="POST">
+            <h1 class="form-heading">WELCOME</h1>
+            <div class="form-below-heading">Enter your details</div>
+            <div class="form-userid">User ID</div>
+            <div class="form-group">           
+                <input type="text" class="form-input" name="UserID" placeholder="Your userID(US****)">
+            </div>
+            <div class="form-name">Name</div>
+            <div class="form-group">           
+                <input type="text" class="form-input" name="Name" placeholder="Your name">
+            </div>
+            <div class="form-password">Password</div>
+            <div class="form-group">
+                <input type="password" class="form-input" name="Password" placeholder="Your password">
+            </div>
+            <div class="form-cfpassword">Confirm Password</div>
+            <div class="form-group">           
+                <input type="password" class="form-input" name="RePassword" placeholder="Your password">
+            </div>
+            <input type="submit" value="Sign Up" class="form-submit">
+        </form>
+    </div>
+</body>
+</html>

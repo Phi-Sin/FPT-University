@@ -1,0 +1,4 @@
++ tạo ô ghi
++ tạo cái ô tròn để tích vào
++ tạo setting mode
++ chọn date

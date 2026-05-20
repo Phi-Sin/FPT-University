@@ -1,0 +1,16 @@
+B1:
+Netbean se di vao ben trong tom cat de xem co path 
+cua he dieu hanh hay khong, neu co ton tai o deloy
+B2:
+B3:
+no build lai toan bo code moi
+B4:
+Gia xu viec build la thanh cong het ....
+B5:
+xuat hien thang do cho nao la sai
+con do o phan nao o buoc nao thi tim cua thang do
+
+Deloy
+B2: Copy goi war ben trong server
+B3: No giai nen goi war va di tim context path cua tap tin ten HTML de tao thu muc
+B4: No giai nen nhung thu nay gio trong thu muc moi

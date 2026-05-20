@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/MVC2AW1739"/>
+    <Resource
+        name="DataCuongDS" type="javax.sql.DataSource" auth="Container"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url="jdbc:sqlserver://localhost:1433:databaseName=Sinhvien2k17:instanceName=SQL2019"
+        username="sa" password="thephi"
+        />
+    </Context>
+    

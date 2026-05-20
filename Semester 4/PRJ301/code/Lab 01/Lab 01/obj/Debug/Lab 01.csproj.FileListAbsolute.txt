@@ -1,0 +1,11 @@
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\bin\Debug\Lab 01.exe.config
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\bin\Debug\Lab 01.exe
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\bin\Debug\Lab 01.pdb
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\obj\Debug\Lab 01.csproj.AssemblyReference.cache
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\obj\Debug\Lab 01.csproj.SuggestedBindingRedirects.cache
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\obj\Debug\Lab_01.frmEmployeeDetails.resources
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\obj\Debug\Lab_01.Properties.Resources.resources
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\obj\Debug\Lab 01.csproj.GenerateResource.cache
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\obj\Debug\Lab 01.csproj.CoreCompileInputs.cache
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\obj\Debug\Lab 01.exe
+E:\Study\FPTU\Ky 5\PRN211\Code\Lab 01\Lab 01\obj\Debug\Lab 01.pdb

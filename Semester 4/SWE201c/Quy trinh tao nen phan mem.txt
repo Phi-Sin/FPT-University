@@ -1,0 +1,14 @@
+Requirement : Yêu cầu của khách hàng
+Design : Thiết kế
+Implement : code
+Testing : test phần mềm
+Deloy / Maintain : Phát hành / Bảo trì
+
+2 mô hình phát triển phần mềm chính :
++ Waterfall ( Mô hình thác nước )
+5 điều trên từ trên xuống dưới
+(Yêu cầu cụ thể hơn, thích hợp cho dự án nhỏ, trung bình, cần team dev professal)
+
++ Agile (Mô hình vòng lặp )
+Dành cho mọi dự án kể cả cụ thể hoặc không
+(thích hợp dành cho các dự án cần sự đảm bảo và bảo trì, phát triển)

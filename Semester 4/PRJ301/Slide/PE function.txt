@@ -1,0 +1,43 @@
+1.	Registration - Chức năng đăng ký 4đ
+a.	On registration.jsp page, user enters full Name, user ID, email and password. Role has 
+default value is “US” (not show on the insert screen) (0.5 points)
+
+b.	Data must validate before insert to database. Show corresponding errors if validation is
+ not satisfied. (0.5 points)
+
+c.	The system will check if there is not user ID and email, then create new user and grant
+the access permission and go to ComesticList.jsp page. (2 points)
+
+d.	Else, the system will show the message” User ID or Email has used already” 
+on registration.jsp page. (0.5 points)
+
+e.	On ComesticList.jsp page need show welcomes the full Name of login user. (0.5 points)
+
+2.	Login - Chức năng đăng nhập 2đ
+a.	On login.jsp page, user enters user ID or email and password.
+
+b.	The system will check if the user ID or email with the password is correct, then 
+grant the access permission and go to ComesticList.jsp page. (1 points)
+
+c.	Else, the system will show the message” Incorrect User ID or Email or Password” on 
+login.jsp page. (0.5 points)
+
+d.	On ComesticList.jsp page need has a Logout function. (0.5 points)
+
+3.	Add new comestic - Chức năng add vào db 3đ
+a.	On addComestic.jsp page show the form to create new comestic. Status has default value 
+is true (not show on the insert screen) (0.5 points)
+
+b.	Data must validate before insert to database. Show corresponding errors if validation 
+is not satisfied. (0.5 points)
+
+c.	The system will check if there is not name, then create new comestic and go to 
+ComesticList.jsp page. (1.5 points)
+
+d.	Else, the system will show the message”Name is duplicated” on addComestic.jsp page. 
+(0.5 points)
+
+4.Authentication - Chức năng xác thực 1đ
+a.Authentication and authorization functions: to use the functions on the comesticList.jsp 
+and addComestic.jsp page, the user is required to log into the system with the “AD” role. 
+Otherwise, redirect to login.jsp  page. (1 points)

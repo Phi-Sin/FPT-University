@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/LoginStyle.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="login-wrapper">
+            <form action="MainController" method="POST" class="form">
+                <img src="img/loginIcon.jpg" alt="">
+                <h2>WELCOME</h2>
+                <div class="box">
+                    <h3 class="title">Enter your detail</h3>
+                </div>
+                <div class="input-group">
+                    User ID<input type="text" name="UserID" id="userID"/>
+                </div>
+                <div class="input-group">
+                    Password<input type="password" name="Password"/>
+                </div>
+                <input type="submit" name="action" value="Login" class="submit-btn" />
+               
+                <div class="signup_link">
+                   Create a new account? <a href="create.jsp">Click here</a></br>
+                </div>
+              
+            </form>  
+        </div>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+1. Abstraction ( Class Trừu Tượng )
+Trong Java, lớp trừu tượng (abstract class) không thể tạo ra các đối tượng.
+Chúng ta có thể sử dụng từ khóa abstract để khai báo một lớp trừu tượng.
